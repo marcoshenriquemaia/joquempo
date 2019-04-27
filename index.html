@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aula 1</title>
+</head>
+<body>
+    <input type="number" placeholder="Ola mundo" class="input" >
+    <button onclick="handleChange()">verificar</button>
+    
+    <script>
+        const handleChange = () => {
+           let valor = parseInt(document.querySelector('.input').value)
+
+            if( valor > 0){
+                valor = valor * -1
+            }
+            console.log(valor)
+            
+            verSeEPar(valor)
+
+
+        //    -20 console.log('raul : valor input ->', valor)
+           valor = valor * -1; //20
+           if(valor > 0){//true 
+               valor = valor * -1//-20
+               console.log(valor)// mostra -20
+            }
+            //vem pra ca
+        
+
+
+        }
+
+        function verSeEPar(numero){
+            numero = Math.PI
+            console.log(numero)
+            const resto = numero % 2
+            if(resto){
+                console.log('impar')
+            }else{
+                console.log('par')
+            }
+        }
+
+        function divide(numero){
+            let resto = numero / 2
+            console.log(resto)
+            if(numero < 0.0000000000000002){
+                return;
+            }
+            setTimeout(reto(resto),300000)
+            
+        }
+        function reto(numero){
+            let resto = numero / 2
+            console.log(resto)
+            if(numero < 0.0000000000000002){
+                return;
+            } 
+            setTimeout(divide(resto),300000)
+            
+        }
+        
+
+            //quer crashar essa porra? divide tudo por 0,999999999 no lugar do 2
+        divide(1000000000000)
+        let x = 10, y = 5;
+        let resultado = x + y;
+        // alert(resultado);
+        let loteria = [1,2,3,4,5,6,7]
+        let pessoa = {idade: 21, casado: true, nome: 'marcos'};
+        let texto = '';
+        texto = null;
+
+        let a = 3;
+        let b = 2;      
+        
+        // let resto = valor % 2
+        //    console.log(resto)
+           
+        //     if(resto == 1){
+        //         console.log('ímpar')
+        //     }else{
+        //         console.log('par')
+        //     }
+           
+        
+
+        x += 3;
+        
+        // x = x + 3;
+
+        // console.log(pessoa.casado);
+        //>= maior ou igual
+        //!= diferente
+        //== igualdade
+        //= atribuição
+        //!== diferente no valor e no tipo
+        //=== o tipo também precisa ser igual
+        //&& e
+        //|| ou
+        //else (se não for isso, faz isso)
+        //else if colocarm outra condição,
+    </script> 
+</body>
+</html>
