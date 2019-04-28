@@ -1,39 +1,67 @@
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
 }
-.battlefield{
-    display: flex;
-    height: 45%;
-    width: 45%;
-    background-color: #0099ff;
-    border: 2px solid black;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-evenly;
-
+.battlefield {
+  display: flex;
+  height: 45%;
+  width: 45%;
+  background-color: #0099ff;
+  border: 1px solid #04558b;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  border-radius: 10px;
 }
-.jogador{
-    display: flex;
-    height: 70%;
-    width: 35%;
-    background-color: #fff;
-    justify-items: center;
-
-
+.jogador {
+  display: flex;
+  height: 70%;
+  width: 35%;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
 }
-.jogador1{
-    display: inline-block;
-    justify-items: center;
+.vs {
+  color: #fff;
+  font-size: 3em;
 }
-.vs{
-    color: #fff;
-    font-size: 3em;
+.div-botao {
+  border: none;
+  display: flex;
+  width: 45%;
+  margin-top: 1em;
 }
-.div-botao{
-    border: none;
+.botao {
+  flex: 1;
+  color: #fff;
+  background-color: #0099ff;
+  height: 3em;
+  border: 1px solid #04558b;
+  outline: none;
+  transition-duration: 0.2s;
+  margin: 1em;
+  border-radius: 10px;
+}
+.botao:hover {
+  color: #0099ff;
+  background-color: #fff;
+  cursor: pointer;
+}
+.vencedor {
+  height: 1.2em;
+  font-size: 2em;
+  background-color: #04558b;
+  color: #fff;
+  width: 20%;
+  border-radius: 25px 25px 0 0;
+  text-align: center;
+}
+.ganhou {
+  border: 5px solid greenyellow;
 }
