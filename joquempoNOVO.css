@@ -1,0 +1,134 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+.battlefield{
+    display: flex;
+    width: 45%;
+    height: 45%;
+    background-color: #0099ff;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.campo{
+    display: flex;
+    background-color: #fff;
+    width: 35%;
+    height: 75%;
+    border: 1px solid black;
+}
+.vs{
+    color: #fff;
+    font-size: 3em;
+}
+.div-botao{
+    width: 40%;
+    height: 10%;
+    display: flex;
+    margin-top: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.botao{
+    height: 4em;
+    width: 10em;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    outline: none;
+    cursor: pointer;
+    background-color: #0099ff;
+    color: #fff;
+    
+}
+.botao:hover{
+    color: #0099ff;
+    background-color: #fff;
+
+}
+.vencedor{
+    width: 20%;
+    height: 10%;
+    background-color: #0099ff;
+    border: 1px solid black;
+    border-bottom: none;
+    border-radius: 20px 20px 0 0;
+    color: #fff;
+    font-size: 2em;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.campo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrap-placar{
+    width: 30%;
+    height: 20%;
+    background-color: #0099ff;
+    margin: 1em;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 20px;
+}
+.placar{
+    height: 80%;
+    width: 33%;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 5em;
+
+}
+.icone-jogador-bot{
+    display: flex;
+    background-color: #0099ff;
+    width: 3.2em;
+    height: 3.2em;
+    background-color: #fff;
+    border-radius: 200px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    
+}
+.wrap-icone-jogador{
+    display: flex;
+}
+/* .raul2{
+    background-color: red;
+    border-radius: 27px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    color: white;
+    border: 1px solid blue;
+
+
+}
+.raul2:hover{
+    cursor: pointer;
+    background-color: white;
+    color: red;
+    border: 1px solid blue;
+}
+.raul-marked{
+    background-color: blue;
+} */
